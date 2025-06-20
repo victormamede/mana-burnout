@@ -1,0 +1,15 @@
+name: John Doe
+bio: John is a designer, photographer, speaker, author of a couple of books about typography and the founder of photo magazine Curious.
+url: https://justgoodthemes.com
+location: Vilnius, Lithuania
+image: images/author.png
+links:
+  - title: Github
+    icon: fa-github
+    url: https://github.com/
+  - title: Instagram
+    icon: fa-instagram
+    url: https://instagram.com/
+  - title: LinkedIn
+    icon: fa-linkedin
+    url: https://linkedin.com/

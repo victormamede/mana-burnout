@@ -1,0 +1,11 @@
+name: Victor Mamede
+bio: I am a software engineer with experience with web technologies - learning lower level programming and game development. When I'm not talking about tech I like to play the guitar
+location: Goiás, Brazil
+image: images/mamede.png
+links:
+  - title: Github
+    icon: fa-github
+    url: https://github.com/victormamede
+  - title: LinkedIn
+    icon: fa-linkedin
+    url: https://www.linkedin.com/in/victor-a-mamede/

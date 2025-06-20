@@ -9,10 +9,10 @@
 lang: en-US
 
 # Site title
-title: "Scriptor"
+title: "Mana Burnout"
 
 # A description of your site for meta tag, search engine results.
-description: "Scriptor is a minimal, clean, modern & responsive Jekyll theme for writers"
+description: "Thoughts on tech, work, and staying human"
 
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl: ""
@@ -23,6 +23,9 @@ url: "https://scriptor-jekyll.netlify.com"
 # Favicon
 favicon: images/favicon.png
 
+# Logo
+logo: images/logo.png
+
 # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 google_analytics: ""
 
@@ -32,22 +35,17 @@ navigation:
     url: /
   - text: About
     url: /about/
-  - text: Style Guide
-    url: /style-guide/
+  - text: Other
+    url: /other/
   - text: Tags
     url: /tags/
-  - text: Download
-    url: https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme
-
-# The shortname for your Disqus site to enable comments.
-disqus: justgoodthemes
 
 # Colors
-accent_color: '#2d72d9'
+accent_color: '#2727e0'
 
 # Site footer
 footer:
-  content: "&copy; Scriptor all rights reserved. Theme by [JustGoodThemes](https://www.justgoodthemes.com)."
+  content: "&copy; Mana Burnout all rights reserved."
   has_social: true
 
 # Plugins
@@ -55,7 +53,7 @@ plugins:
   - jekyll-paginate
 
 # http://jekyllrb.com/docs/pagination/
-paginate: 3
+paginate: 4
 paginate_path: '/page:num/'
 
 
