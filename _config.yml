@@ -11,14 +11,16 @@ lang: en-US
 # Site title
 title: "Mana Burnout"
 
+domain: victormamede.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+
 # A description of your site for meta tag, search engine results.
 description: "Thoughts on tech, work, and staying human"
 
 # The subpath of your site, e.g. /blog, for generating urls.
-baseurl: ""
+baseurl: "/mana-burnout"
 
 # The base hostname & protocol of your site for where absolute urls are needed.
-url: "https://scriptor-jekyll.netlify.com"
+url: "https://victormamede.github.io/"
 
 # Favicon
 favicon: images/favicon.png
