@@ -2,7 +2,7 @@
 layout: page
 title: About this blog
 description: About Mana Burnout
-feature_image: images/about.jpg
+feature_image: images/about.png
 ---
 
 This is a blog about tech, work and everything in-between
