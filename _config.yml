@@ -36,11 +36,9 @@ navigation:
   - text: Home
     url: /
   - text: About
-    url: /about/
-  - text: Other
-    url: /other/
+    url: /about
   - text: Tags
-    url: /tags/
+    url: /tags
 
 # Colors
 accent_color: '#2727e0'
