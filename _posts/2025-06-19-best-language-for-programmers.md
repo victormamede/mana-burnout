@@ -44,7 +44,7 @@ When you want a computer to do something, solve a problem, you write a program i
 
 ## AI
 
-I don't believe AI is going to take our jobs, as some CEOs like to claim and blabber about, but has become unquestionably a powerful tool at our disposal. I also don't think that *prompt engineering* is particularly useful, but I do know for a fact that you can extract better data from those tools by simply talking in their language.
+I don't believe AI is going to take our jobs, as some CEOs like to claim and blabber about, but it has become unquestionably a powerful tool at our disposal. I also don't think that *prompt engineering* is particularly useful, but I do know for a fact that you can extract better data from those tools by simply talking in their language.
 
 LLMs produce better output if you talk to them in a particular way, and while I'm no expert in that field I found that I can leverage their power better than most of my peers by simply understanding better my problem and communicating better.
 
