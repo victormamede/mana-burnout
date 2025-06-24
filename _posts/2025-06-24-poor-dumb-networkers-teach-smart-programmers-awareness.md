@@ -3,10 +3,10 @@ layout: post
 title: Poor Dumb Networkers Teach Smart Programmers Awareness
 description: Have you heard of the OSI Model? And can you differ what each layer do besides of the obvious? This is an article about the model, the layers and the shark.
 date: 2025-06-24
-feature_image: images/theshark.png
+feature_image: images/2025-06-24-OSI/theshark.png
 tags:
     - software
-    - "#cybersec"
+    - cybersec
     - network
 author: Benett
 ---
@@ -28,7 +28,7 @@ The layered approach offers several advantages. By separating networking functio
 
 ## The Layers
 
-{% include image_caption.html imageurl="images/osi-model.png" title="OSI Model" caption="Layers Illustration" %}
+{% include image_caption.html imageurl="images/2025-06-24-OSI/osi-model.png" title="OSI Model" caption="Layers Illustration" %}
 
 The seven OSI layers from bottom to top are:
 
@@ -48,7 +48,7 @@ Enter **Wireshark**, a packet analyzer that helped me _see_ what each OSI layer 
 
 When analyzing traffic, I noticed Wireshark breaks packets into sections that roughly correspond to OSI layers. Let’s walk through an example.
 
-{% include image_caption.html imageurl="images/packetdetails.png" title="Packet Info" caption="" %}
+{% include image_caption.html imageurl="images/2025-06-24-OSI/packetdetails.png" title="Packet Info" caption="" %}
 
 We can see seven distinct layers to the packet: frame/packet, source MAC, source IP, protocol, protocol errors, application protocol, and application data. Below we will go over the layers in more detail.
 
@@ -56,29 +56,29 @@ We can see seven distinct layers to the packet: frame/packet, source MAC, source
 
 This is where Wireshark shows frame-specific metadata, like the packet number and capture timestamp. It doesn’t show voltages or light pulses, but it gives insight into how the packet was physically transmitted.
 
-{% include image_caption.html imageurl="images/OSI-layer1.png" title="Frame" caption="" %}
+{% include image_caption.html imageurl="images/2025-06-24-OSI/OSI-layer1.png" title="Frame" caption="" %}
 
 ### **Layer 2: Source MAC (Data Link Layer)**
 
 Shows MAC addresses and Ethernet details. This is the "local" addressing used in LAN communication.
 
-{% include image_caption.html imageurl="images/OSI-layer2.png" title="Frame" caption="" %}
+{% include image_caption.html imageurl="images/2025-06-24-OSI/OSI-layer2.png" title="Frame" caption="" %}
 
 ### **Layer 3: Source IP (Network Layer)**
 
 Here, you see source and destination IP addresses. This layer is responsible for logical addressing and routing across networks.
 
-{% include image_caption.html imageurl="images/OSI-layer3.png" title="Frame" caption="" %}
+{% include image_caption.html imageurl="images/2025-06-24-OSI/OSI-layer3.png" title="Frame" caption="" %}
 
 ### **Layer 4: Protocol (Transport Layer)**
 
 This section includes the transport protocol (TCP/UDP), ports, and flags like SYN or ACK.
 
-{% include image_caption.html imageurl="images/OSI-layer4.png" title="Frame" caption="" %}
+{% include image_caption.html imageurl="images/2025-06-24-OSI/OSI-layer4.png" title="Frame" caption="" %}
 
 You may also spot **protocol-specific details**, like TCP reassembly, retransmissions, or out-of-order packets — still part of this layer.
 
-{% include image_caption.html imageurl="images/OSI-layer4-2.png" title="Frame" caption="" %}
+{% include image_caption.html imageurl="images/2025-06-24-OSI/OSI-layer4-2.png" title="Frame" caption="" %}
 
 ### **Layer 5–7: Sessions, Presentation & Application?**
 
@@ -92,13 +92,13 @@ Instead, Wireshark groups layers 5–7 under what it calls **Application Layer p
 
 Wireshark shows you protocol-specific details — headers, commands, status codes — everything the user-level application needs.
 
-{% include image_caption.html imageurl="images/OSI-layer5.png" title="Frame" caption="" %}
+{% include image_caption.html imageurl="images/2025-06-24-OSI/OSI-layer5.png" title="Frame" caption="" %}
 
 ### **Application Data**
 
 This is the payload — raw data being transferred, like an HTML page, file content, or form data.
 
-{% include image_caption.html imageurl="images/OSI-layer5-2.png" title="Frame" caption="" %}
+{% include image_caption.html imageurl="images/2025-06-24-OSI/OSI-layer5-2.png" title="Frame" caption="" %}
 
 ---
 
