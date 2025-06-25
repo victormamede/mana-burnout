@@ -1,0 +1,11 @@
+name: William Benett
+bio: Software engineer working as a programmer, but on the journey to become a cybersecurity professional.
+location: Goiás, Brazil
+image: images/benett.png
+links:
+    - title: Github
+      icon: fa-github
+      url: https://github.com/talls2
+    - title: LinkedIn
+      icon: fa-linkedin
+      url: https://www.linkedin.com/in/william-benett/
