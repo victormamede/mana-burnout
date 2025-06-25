@@ -8,7 +8,7 @@ tags:
     - software
     - cybersec
     - network
-author: Benett
+author: benett
 ---
 
 Have you heard of the OSI Model? And can you differ what each layer do besides of the obvious?
