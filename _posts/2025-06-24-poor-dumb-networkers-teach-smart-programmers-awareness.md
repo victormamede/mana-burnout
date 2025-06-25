@@ -14,6 +14,8 @@ author: Benett
 Have you heard of the OSI Model? And can you differ what each layer do besides of the obvious?
 This is an article about the model, the layers and the shark.
 
+<!--more-->
+
 ## The Model
 
 OSI Model was created to standardize network communication protocols, and use layers to divide different levels of abstraction. The principles used to that were:
@@ -28,7 +30,7 @@ The layered approach offers several advantages. By separating networking functio
 
 ## The Layers
 
-{% include image_caption.html imageurl="images/2025-06-24-OSI/osi-model.png" title="OSI Model" caption="Layers Illustration" %}
+{% include image_caption.html imageurl="images/2025-06-24-OSI/osi-layers.png" title="OSI Model" caption="Layers Illustration" %}
 
 The seven OSI layers from bottom to top are:
 
@@ -48,7 +50,7 @@ Enter **Wireshark**, a packet analyzer that helped me _see_ what each OSI layer 
 
 When analyzing traffic, I noticed Wireshark breaks packets into sections that roughly correspond to OSI layers. Let’s walk through an example.
 
-{% include image_caption.html imageurl="images/2025-06-24-OSI/packetdetails.png" title="Packet Info" caption="" %}
+{% include image_caption.html imageurl="images/2025-06-24-OSI/wireshark-packetdetails.png" title="Packet Info" caption="" %}
 
 We can see seven distinct layers to the packet: frame/packet, source MAC, source IP, protocol, protocol errors, application protocol, and application data. Below we will go over the layers in more detail.
 
