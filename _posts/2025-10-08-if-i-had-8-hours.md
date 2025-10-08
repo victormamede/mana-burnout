@@ -8,7 +8,7 @@ tags:
     - pentest
     - network
     - cybersec
-author: Benett
+author: benett
 ---
 
 > “If I had eight hours to chop down a tree, I’d spend six sharpening my axe.”  
