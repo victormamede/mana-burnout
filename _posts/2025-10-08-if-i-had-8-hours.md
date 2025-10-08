@@ -19,7 +19,7 @@ Success rarely comes from rushing the “cut”; it comes from meticulous prepar
 
 ## The Sharpening: Reconnaissance First
 
-{% include binoculars.html imageurl="images/2025-10-08-8-hours/Binoculars.jpg" title="Binoculars" caption="Binoculars" %}
+{% include image_caption.html imageurl="images/2025-10-08-8-hours/Binoculars.jpg" title="Binoculars" caption="Binoculars" %}
 
 Before a single exploit is launched, a pentester’s most valuable investment is in reconnaissance.  
 Mapping the target surface, understanding the technologies in use, cataloging exposed services, and gathering OSINT (Open-Source Intelligence) are the modern equivalents of honing an axe’s edge.
@@ -57,7 +57,7 @@ Sometimes we get a clean cut and the objective is easily achieved; other times w
 
 ## Post-Exploitation
 
-{% include transporte-de-madeira.html imageurl="images/2025-10-08-8-hours/transporte-de-madeira.jpg" title="Madeira" caption="Madeira" %}
+{% include image_caption.html imageurl="images/2025-10-08-8-hours/transporte-de-madeira.jpg" title="Madeira" caption="Madeira" %}
 
 Ironically, the activity that’s often the hardest isn’t the cut or the preparation — it’s the logistics of carrying the wood out of the forest.  
 Dropping the analogy: documentation and demonstrating data access or privilege escalation are often the toughest parts.  
