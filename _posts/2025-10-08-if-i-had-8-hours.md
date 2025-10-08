@@ -17,35 +17,35 @@ author: benett
 In penetration testing, the same principle applies.  
 Success rarely comes from rushing the “cut”; it comes from meticulous preparation.
 
- <!--more--> 
+ <!--more-->
 
 ## The Sharpening: Reconnaissance First
 
 {% include image_caption.html imageurl="images/2025-10-08-8-hours/Binoculars.jpg" title="Binoculars" caption="" %}
 
 Before a single exploit is launched, a pentester’s most valuable investment is in reconnaissance.  
-Mapping the target surface, understanding the technologies in use, cataloging exposed services, and gathering OSINT (Open-Source Intelligence) are the modern equivalents of honing an axe’s edge.
+Mapping the target surface, understanding the technologies in use, cataloging exposed services, and gathering OSINT (Open Source Intelligence) are the modern equivalents of honing an axe’s edge.
 
 **Why reconnaissance matters:**
 
--   **Reduces noise:** Less brute-force guessing, more precise targeting.
+-   **Reduces noise:** Less brute force guessing, more precise targeting.
 -   **Reveals weak points early:** Misconfigured ports, forgotten endpoints, outdated software.
 -   **Saves time later:** Exploits become smoother when you know where to strike.
 
 ## The Six Hours
 
-Taking the analogy to the next step, let’s suppose we only have 8 hours to get the job done (excluding documentation writing and post-exploitation).
+Taking the analogy to the next step, let’s suppose we only have 8 hours to get the job done (excluding documentation writing and post exploitation).
 
-A typical timeline might look like this for an eight-hour engagement:
+A typical timeline might look like this for an eight hour engagement:
 
--   **Hour 1–2: Passive Recon**  
-    Use tools like `whois`, `nslookup`, search engines, Shodan, and certificate-transparency logs to uncover domains, subdomains, and public assets — all without touching the target.
+-   **Hour 1 to 2: Passive Recon**  
+    Use tools like `whois`, `nslookup`, search engines, Shodan, and certificate transparency logs to uncover domains, subdomains, and public assets, all without touching the target.
 
--   **Hour 3–4: Active Recon**  
-    Carefully probe with `nmap`, `gobuster`, and similar tools to enumerate open ports, directories, services, and banner versions — always staying within the scope defined by the client.
+-   **Hour 3 to 4: Active Recon**  
+    Carefully probe with `nmap`, `gobuster`, and similar tools to enumerate open ports, directories, services, and banner versions, always staying within the scope defined by the client.
 
 -   **Hour 5: Vulnerability Mapping**  
-    Correlate findings with CVE databases, look for common misconfigurations, privilege-escalation paths, or leaked credentials.
+    Correlate findings with CVE databases, look for common misconfigurations, privilege escalation paths, or leaked credentials.
 
 -   **Hour 6: Strategy Building**  
     Decide which attack paths are most viable, draft the exploitation plan, and prepare payloads or scripts.
@@ -57,13 +57,15 @@ By the end of this phase, your axe is ready to cut any ~~application~~ tree.
 With a clear plan, the final two hours become significantly more impactful.  
 Sometimes we get a clean cut and the objective is easily achieved; other times we realize the mission might require more than an axe, perhaps a chainsaw or more information than we initially had.
 
-## Post-Exploitation
+But if we come this far and discover that the user password was in a data breach that we did not check, or that instead of doing a brute force in one user, we had a vulnerability right in the corner that we did not see because we thought that a widget for tracking comments was not going to have any CVEs worth it, then your axe was not sharp enough, and you will lose time going back to the recon steps just to find out what you could have found earlier.
+
+## Post Exploitation
 
 {% include image_caption.html imageurl="images/2025-10-08-8-hours/transporte-de-madeira.jpg" title="Madeira" caption="" %}
 
-Ironically, the activity that’s often the hardest isn’t the cut or the preparation, it’s the logistics of carrying the wood out of the forest.  
+Ironically, the activity that is often the hardest is not the cut or the preparation; it is the logistics of carrying the wood out of the forest.  
 Dropping the analogy: documentation and demonstrating data access or privilege escalation are often the toughest parts.  
-Enumerating CVEs alone has little to no impact on the intended audience of the report. The ability to translate what we saw and understood during the process to professionals in other roles is one of the most important, yet often overlooked aspects of the job.
+Enumerating CVEs alone has little to no impact on the intended audience of the report. The ability to translate what we saw and understood during the process to professionals in other roles is one of the most important yet often overlooked aspects of the job.
 
 ## Lessons From the Woods
 
