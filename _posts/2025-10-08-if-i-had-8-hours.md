@@ -17,6 +17,8 @@ author: benett
 In penetration testing, the same principle applies.  
 Success rarely comes from rushing the “cut”; it comes from meticulous preparation.
 
+ <!--more--> 
+
 ## The Sharpening: Reconnaissance First
 
 {% include image_caption.html imageurl="images/2025-10-08-8-hours/Binoculars.jpg" title="Binoculars" caption="" %}
