@@ -20,7 +20,7 @@ description: "Thoughts on tech, work, and staying human"
 baseurl: "/"
 
 # The base hostname & protocol of your site for where absolute urls are needed.
-url: "https://victormamede.github.io/"
+url: "https://manaburnout.tech/"
 
 # Favicon
 favicon: images/favicon.png
